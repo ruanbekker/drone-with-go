@@ -2,4 +2,6 @@
 
 An example of how to test Go code with Drone.
 
-.
+## Resources:
+
+- [Drone Secrets](https://github.com/drone/docs/blob/master/content/usage/secrets/secrets.md)
