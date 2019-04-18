@@ -9,6 +9,7 @@ pipeline:
       - go vet
       - go test -v -cover
       - echo $myname
+    secrets: [ myname ]
   build:
     image: golang:latest
     commands:
