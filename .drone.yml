@@ -3,13 +3,6 @@ workspace:
   path: src/github.com/drone-demos/drone-with-go
 
 pipeline:
-  docker:
-    image: docker
-    commands:
-      - echo $myusername
-      - echo $MYUSERNAME
-    secrets: [ myusername ]
-    
   test:
     image: golang:latest
     commands:
