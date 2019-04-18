@@ -8,6 +8,7 @@ pipeline:
     commands:
       - go vet
       - go test -v -cover
+      - echo $myname
   build:
     image: golang:latest
     commands:
